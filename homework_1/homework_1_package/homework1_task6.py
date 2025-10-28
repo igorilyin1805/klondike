@@ -20,5 +20,5 @@ def get_words(input_s: str) -> list[str]:
 
 def get_words(input_s: str) -> list[str]:
     return  input_s.split()
-
+print(get_words("Александр Сергеевич Пушкин"))
 

@@ -6,5 +6,5 @@
 def get_person_short_name(fio: str) -> str:
     family, name, fathername = fio.split()
     return f'{family} {name[0]}. {fathername[0]}.'
-
+print(get_person_short_name("Лермонтов Михаил Юрьевич"))
 
